@@ -14,8 +14,8 @@ In addition to the data files, the project workspace included program files :
 1. *etl.py* reads data from S3, processes that data using Spark and writes them back to S3
 2. *functions.py* and *utility.py* - these modules contains the functions for creating fact and dimension tables and cleaning.
 3. *config.cfg* - contains configuration that allows the ETL pipeline to access AWS EMR cluster.
-4. *Capstone Project.ipynb* - jupyter notebook that was used for building the ETL pipeline.
-
+4. *Exploratory analysis.ipynb* - jupyter notebook that was used for exploring and assessing the datasets
+5. *Capstone Project.ipynb* - jupyter notebook that was used for building the ETL pipeline.
 
 ## The project follows the following steps:
 
