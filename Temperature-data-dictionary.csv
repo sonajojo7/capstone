@@ -1,0 +1,8 @@
+"Feature","Description"
+"dt","Date"
+"AverageTemperature","Global average land temperature in celsius"
+"AverageTemperatureUncertainty","95% confidence interval around the average"
+"City","Name of City"
+"Country","Name of Country"
+"Latitude","City Latitude"
+"Longitude","City Longitude"
