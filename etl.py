@@ -34,7 +34,6 @@ def process_immigration_data(spark, output_data, immigration_file, temperature_f
     Parameters:
     -----------
     spark (SparkSession): spark session instance
-    input_data (string): input file path
     output_data (string): output file path
     file_name (string): immigration input file name
     mapping_file (pandas dataframe): dataframe that maps country codes to country names
@@ -70,7 +69,6 @@ def process_demographics_data(spark, output_data, file_name):
     Parameters:
     -----------
     spark (SparkSession): spark session instance
-    input_data (string): input file path
     output_data (string): output file path
     file_name (string): usa demographics csv file name"""
     
@@ -91,7 +89,7 @@ def process_global_land_temperatures(spark, file_name):
     Parameters:
     -----------
     spark (SparkSession): spark session instance
-    input_data (string): input file path
+    file_name (string): global land temperatures csv file name
     output_data (string): output file path
     """
     # load data
